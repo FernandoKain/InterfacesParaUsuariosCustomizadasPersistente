@@ -7,6 +7,8 @@ class TelaPython:
     def __init__(self):
         # sg.theme_previewer() # Para visualizar todos os temas basta descomentar o código desta linha
         sg.change_look_and_feel('DarkGreen5')
+        # Para mais é só acessar: https://www.geeksforgeeks.org/themes-in-pysimplegui/
+
         # Layout
         layout = [
             [sg.Text('Nome', size=(5,0)), sg.Input(size=(40,0), key='nome')], # Primeiro Campo da Janela
